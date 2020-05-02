@@ -13,7 +13,7 @@ class DynamicWidgetsApp(App):
 
     def build(self):
         self.title = "Dynamic Widget"
-        self.root = Builder.load_file('dynamic_widget.kv')
+        self.root = Builder.load_file('dynamic_labels.kv')
         self.create_widget()
         return self.root
 
